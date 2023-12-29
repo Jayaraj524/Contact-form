@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Nunito+Sans:opsz,wght@6..12,300&display=swap');
+body{
+    margin:0;
+    padding: 0;
+}
+.container{
+     background: linear-gradient(to right,#348f50,#56d4d3);
+      height: 100vh;
+     overflow: hidden;
+      display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.contact-form{
+    background-color: rgba(255,255,255,0.8);
+    padding:20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.contact-form h2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.form-group{
+    display: block;
+    margin-bottom: 20px;
+    
+}
+label{
+   display: block;
+   margin-bottom: 10px;
+}
+input,textarea{
+
+    width: 100%;
+    padding:10px;
+    border:1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+button{
+    background-color: rgb(44, 151, 194);
+    color: aliceblue;
+    border-radius: 3px;
+    border:none;
+    padding:5px;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: #348f50;
+    transition: 0.3s;
+}
